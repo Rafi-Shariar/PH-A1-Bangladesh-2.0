@@ -214,7 +214,7 @@ main{
 #quote-div{
     background: white;
     padding: 48px 24px;
-    background-image: url(../assets/quote-bg.png);
+    background-image: url(./assets/quote-bg.png);
     background-repeat: no-repeat;
     background-position: top 30px left 24px;
     border-radius: 16px;
