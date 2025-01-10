@@ -89,3 +89,42 @@ main{
     margin-left: 160px;
     margin-right: 160px;
 }
+
+/* Pillars of Bangladesh */
+.pillar-cards{
+    width: 302px;
+    /* height: 244px; */
+    background: white;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.pillar-cards h4{
+    font-size: 20px;
+    font-weight:700;
+    margin-bottom: 12px;
+}
+
+.pillar-cards p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+
+}
+
+.pillar-Contents{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pillarsOfBD{
+    margin-top: 80px;
+}
+
+.pillarsOfBD h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    margin-top: 80px;
+}
+
