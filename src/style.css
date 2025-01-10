@@ -128,3 +128,109 @@ main{
     margin-top: 80px;
 }
 
+/* Vision of Future */
+.Vision-Of_Future h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    margin-top: 80px;
+}
+.Vision-Of_Future p{
+    font-size: 16px;
+    color:rgba(14, 14, 14, 0.7) ;
+    margin-bottom: 32px;
+    line-height: 24px;
+}
+
+.VOF-Cards{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:32px ;
+
+}
+
+.VOF-Cards-contents{
+    width: 410.67px;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.VOF-C1{
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.VOF-C2{
+    background: #C6E4D6;
+}
+
+.VOF-C3{
+    background: #F7EBCF;
+}
+
+.VOF-btn1{
+    width: 122px;
+    height: 41px;
+    background: #5490F5;
+    color: white;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    border-radius:8px ;
+    border: 0;
+}
+
+.VOF-btn2{
+    width: 122px;
+    height: 41px;
+    background: #09A15C;
+    color: white;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    border-radius:8px ;
+    border: 0;
+}
+
+.VOF-btn3{
+    width: 122px;
+    height: 41px;
+    background: #FFC239;
+    color: white;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    border-radius:8px ;
+    border: 0;
+}
+
+/* Quote Section */
+#quote-div{
+    background: white;
+    padding: 48px 24px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top 30px left 24px;
+    border-radius: 16px;
+    margin-bottom: 80px;
+}
+
+#main-quote{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+
+#name{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+#designation{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
+    
+}
