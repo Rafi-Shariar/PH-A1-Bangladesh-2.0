@@ -377,6 +377,7 @@ th{
     font-size: 40px;
     font-weight: 700;
     border-radius: 16px;
+    border-color: rgba(14, 14, 14, 0.15);
 }
 
 .inputs{
@@ -384,14 +385,16 @@ th{
     flex-direction: column;
     align-items: center;
     margin-top: 32px;
+    
 }
 
 .inputs input{
-    width: 1032px;
+    width: 950px;
     height: 64px;
     text-align: center;
     font-size: 20px;
     margin-bottom: 32px;
+    border-color: rgba(14, 14, 14, 0.15);
 }
 
 .inputs input::placeholder{
@@ -408,8 +411,13 @@ th{
 
 }
 
-.donate-boxs button:hover{
+.donate-btn{
     background: #C6E4D6;
+}
+
+.donate-boxs button:hover{
+    background: rgba(0, 106, 80, 1);
+    color: white;
    
 }
 
