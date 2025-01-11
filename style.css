@@ -469,6 +469,8 @@ th{
     color: white;
     border: 0;
     border-radius: 0 5px 5px 0 ;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 /* Footer Section */
@@ -499,4 +501,13 @@ th{
     display: flex;
     gap: 23px;
     padding-bottom: 50px;
+}
+
+
+
+/* Hover effects */
+.btn-dec1:hover{
+    background: rgb(52, 93, 241);
+    color: white;
+
 }
