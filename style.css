@@ -241,7 +241,7 @@ main{
 
 
 /* Your Opinion Matters - Table */
-.Your-Opinion_Matters h2{
+ .Your-Opinion_Matters h2{
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 24px;
@@ -254,35 +254,55 @@ main{
     padding: 32px;
 }
 
-.YOM-table table{
-   
-    border: 0;
-  
+
+table{
+    width: 100%;
+    
 }
 
+table,th ,.ques , td{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-collapse: collapse;
+
+}
 th{
+    text-align: start;
     font-size: 20px;
     font-weight: 600;
-    text-align: start;
-    background: #C6E4D6;
     padding: 24px;
 }
 
-.ques{
-    padding: 36px 357px 36px 24px;
+thead tr{
+    background: #C6E4D6;
+}
+
+.table-val .ques{
+    padding: 20px;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 600;   
+}
+
+.ans{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 select{
+    width: 152px;
+    height: 44px;
     font-size: 16px;
     font-weight: 600;
-    text-align: start;
     background: #C6E4D6;
-    padding: 12px;
-    border-radius: 4px;
-
+    text-align: center;
 }
+
+th{
+    border:none;
+}
+
+
 
 
 /* Recent News */
